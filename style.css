@@ -1,0 +1,275 @@
+/*iNDEX*/
+
+body {
+    background-image: url(imagens/R.jpeg);
+
+}
+
+.banner-tituloprincipal {
+  background-color: pink;
+  padding: 15px;
+  margin-top: 0px;
+  text-align: center;
+  text-shadow: 5px 2px palevioletred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid palevioletred;
+    
+}
+
+.contaner {
+    text-align: center;
+    
+}
+
+.texto1 {
+    text-align: center;
+    background-color: pink;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid palevioletred;
+    
+}
+
+.esquerda-sobreojogo {
+  background-color: pink;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid palevioletred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto2 {
+  background-color: pink;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ulrimasatualizaçoes {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid palevioletred;
+    background-color: pink;
+    padding: 15px;
+}
+
+.atualizacoes-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.atualizacao-bloco {
+  background-color: pink;
+  border: 2px solid palevioletred;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.img-atualizacao {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.ano {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0;
+}
+.plataformas-container {
+    width: 100%;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    background-color: pink;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .plataformas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: black;
+  }
+  
+  .plataformas:hover {
+    color: palevioletred;
+    text-decoration: underline;
+  }
+
+/* ONDE COMPRAR*/
+
+  .tabela-compras {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Para as bordas não se sobreporem */
+    text-align: center;
+    background-image: url(imagens/R.jpeg);
+}
+
+.tabela-compras th, .tabela-compras td {
+    padding: 10px;
+    border: 1px solid palevioletred; /* Cor das bordas */
+    width: 100px;
+}
+
+.tabela-compras th {
+    background-color: pink;
+    color: #333;
+}
+
+.tabela-compras a {
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.tabela-compras a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+.volta {
+    width: 100%;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    background-color: pink;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .voltar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: black;
+  }
+  
+  .voltar:hover {
+    color: palevioletred;
+    text-decoration: underline;
+  }
+
+/* CONTATO */
+
+  .contato-container {
+    width: 100%;
+    border: 2px solid palevioletred;
+    background-color: pink;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+.contato {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.contato:hover {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+
+.c {
+    text-align: center;
+    background-image: url(imagens/R.jpeg)
+}
+
+.celulas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.celula {
+    background-color: pink;
+    border: none;
+    
+
+}
+
+.feito {
+  background-color: pink;
+  border: 2px solid palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: palevioletred;
+  width: 100%;
+}
+
+ul.submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: pink;
+  display: none;
+}
+
+.menu li {
+  float: left;
+  width: 200px;
+  position:absolute;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+}
+
+.submenu li a {
+  display: block;
+  color:#333;
+  text-align: center;
+    padding: 14px 16px;
+  
+    text-decoration: none;
+  
+  }
+
+  .menu li:hover > ul.submenu{
+
+    display: block;
+  
+  }
+
+  .menu li a:hover {
+
+    background-color: #111111;
+  
+  }
+  
+  
+  .submenu li a:hover {
+  
+    background-color: #cccccc;
+  
+  } 
